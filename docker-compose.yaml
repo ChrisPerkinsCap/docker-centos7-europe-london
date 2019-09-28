@@ -1,0 +1,12 @@
+version: '3.3'
+
+
+services:
+
+  centos7-bst:
+
+    build: ./build-centos7
+
+    image: chrisperkins/centos7:bst
+
+    command: date
